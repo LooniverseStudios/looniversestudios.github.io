@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LOONIVERSE Studios — Independent game studio and creator of Monkey Fruit Rush.">
+<title>LOONIVERSE Studios</title>
+<link rel="icon" href="icon.png">
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #080d1b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+header {
+    padding: 22px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff15;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.brand {
+    color: #f4ce83;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+nav a {
+    color: #c5cddd;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px 70px;
+    background: radial-gradient(ellipse at top, #192c4d, #080d1b 75%);
+}
+.studio-logo {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 20px;
+}
+.hero h1 {
+    font-size: clamp(28px, 5vw, 48px);
+    margin-top: 30px;
+}
+.hero p {
+    color: #aebbd0;
+    margin-top: 12px;
+    font-size: 18px;
+}
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 24px;
+}
+.section-label {
+    color: #f4ce83;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+.game-card {
+    background: #111a2c;
+    border: 1px solid #ffffff15;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.banner {
+    width: 100%;
+    display: block;
+}
+.game-info {
+    padding: 30px;
+}
+.game-icon {
+    width: 100px;
+    border-radius: 22px;
+    margin-bottom: 15px;
+}
+.game-info h3 {
+    font-size: 28px;
+}
+.slogan {
+    color: #f4ce83;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.description {
+    color: #b9c4d7;
+    max-width: 650px;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 24px 0;
+}
+.tag {
+    background: #ffffff0d;
+    border: 1px solid #ffffff15;
+    padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+.coming-soon {
+    display: inline-block;
+    background: #f4ce83;
+    color: #080d1b;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 10px;
+}
+.about {
+    text-align: center;
+}
+.about p {
+    color: #b9c4d7;
+    max-width: 650px;
+    margin: auto;
+}
+.contact {
+    text-align: center;
+    background: #111a2c;
+    border-radius: 24px;
+    margin: 20px auto 60px;
+    padding: 45px 20px;
+}
+.contact a {
+    color: #f4ce83;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #ffffff15;
+    color: #8794aa;
+    font-size: 13px;
+}
+@media(max-width: 600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+    nav a {
+        margin: 0 10px;
+    }
+    .hero {
+        padding: 25px 15px 40px;
+    }
+    .game-info {
+        padding: 22px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="brand">LOONIVERSE STUDIOS</div>
+    <nav>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div class="hero">
+        <img class="studio-logo" src="studio_logo.png" alt="LOONIVERSE Studios">
+        <h1>Small Studio. Big Adventures.</h1>
+        <p>Creating fun worlds and unforgettable gaming moments.</p>
+    </div>
+
+    <section id="games">
+        <div class="section-label">OUR GAMES</div>
+        <h2>Discover Our Universe</h2>
+
+        <div class="game-card">
+            <img class="banner" src="feature_graphic.png" alt="Monkey Fruit Rush promotional artwork">
+
+            <div class="game-info">
+                <img class="game-icon" src="icon.png" alt="Monkey Fruit Rush icon">
+
+                <h3>Monkey Fruit Rush</h3>
+                <p class="slogan">Catch. Combo. Survive.</p>
+
+                <p class="description">
+                    Embark on a wild tropical adventure!
+                    Catch falling fruits, dodge dangerous hazards,
+                    build epic combos and challenge your high score
+                    in this exciting endless arcade game.
+                </p>
+
+                <div class="tags">
+                    <span class="tag">Arcade</span>
+                    <span class="tag">Casual</span>
+                    <span class="tag">Free to Play</span>
+                    <span class="tag">Android</span>
+                </div>
+
+                <span class="coming-soon">
+                    Coming Soon on Google Play
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-label">ABOUT US</div>
+        <h2>Welcome to LOONIVERSE</h2>
+        <p>
+            LOONIVERSE Studios is an independent game studio
+            focused on creating entertaining, accessible and
+            memorable gaming experiences for players around
+            the world. Our adventure is just beginning.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-label">GET IN TOUCH</div>
+        <h2>Contact Us</h2>
+        <a href="mailto:looniverse.money@gmail.com">
+            looniverse.money@gmail.com
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 LOONIVERSE Studios. All rights reserved.</p>
+    <p>Made for players around the world.</p>
+</footer>
+
+</body>
+</html>
